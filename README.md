@@ -78,7 +78,7 @@ DB_PASSWORD=
 ---
 
 ## Auteurs
-- **[Noah Dubail | Bryan Chatillon]**
+- **Noah Dubail & Bryan Chatillon**
 
 ---
 
