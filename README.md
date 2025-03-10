@@ -1,7 +1,7 @@
 # Mercenary Marketplace
 
 ## Description
-DeadHire Marketplace est une plateforme permettant aux utilisateurs de recruter des mercenaires pour des contrats d'assassinat (projet fictif à but éducatif). Il y a deux types d'utilisateurs :
+DeathHire Marketplace est une plateforme permettant aux utilisateurs de recruter des mercenaires pour des contrats d'assassinat (projet fictif à but éducatif). Il y a deux types d'utilisateurs :
 - **Visiteurs** : utilisateurs qui passent des commandes.
 - **Tueurs** : mercenaires qui acceptent ou refusent des contrats.
 
@@ -63,7 +63,7 @@ Configurer le fichier `.env` du backend avec vos informations MySQL :
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=DeadHire
+DB_DATABASE=DeathHire
 DB_USERNAME=root
 DB_PASSWORD=
 ```
