@@ -17,11 +17,8 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
+
+    protected $guarded = []; // Ne protège aucune colonne, permet le create
 
     /**
      * The attributes that should be hidden for serialization.
@@ -32,6 +29,16 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function tueur()
+    {
+        return $this->hasOne(Tueur::class, 'id_user', 'id_user');
+    }
+
+
+
+
+
 
     /**
      * Get the attributes that should be cast.
