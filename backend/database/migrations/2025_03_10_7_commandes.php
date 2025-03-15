@@ -17,9 +17,9 @@ return new class extends Migration
             $table->unsignedBigInteger('id_cible');
             $table->foreign('id_cible')->references('id_cible')->on('cibles');
             $table->unsignedBigInteger('id_tueur');
-            $table->foreign('id_tueur')->references('id_tueur')->on('tueur');
-            $table->unsignedBigInteger('id_user');
-            $table->foreign('id_user')->references('id_user')->on('users');
+            $table->foreign('id_tueur')->references('id_tueur')->on('tueurs');
+            $table->unsignedBigInteger('id_client');
+            $table->foreign('id_client')->references('id_client')->on('clients');
             $table->unsignedBigInteger('id_statut');
             $table->foreign('id_statut')->references('id_statut')->on('statut');
             $table->timestamps();
