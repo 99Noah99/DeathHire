@@ -1,28 +1,43 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeathHire - Connexion</title>
-</head>
-<body class="bg-gradient-to-b from-black to-[#222222] text-white flex items-center justify-center min-h-screen">
-    <div class="w-full max-w-sm mx-auto text-center">
-        <img src="/img/login/logo.png" class="brightness-75 contrast-125 mix-blend-soft-light" alt="DeathHire Logo" class="mx-auto mb-4 w-20 h-20">
-        <h1 class="text-5xl font-extrabold uppercase mb-8 text-[#cd7f32] drop-shadow-[0_4px_6px_rgba(0,0,0,0.5)] shadow-xl" style="font-family: 'Cinzel', serif;">DeathHire</h1>
-        <div class="bg-gradient-to-b from-[#1a1a1a] to-[#111111] border border-[#cd7f32] shadow-2xl p-6 rounded-lg shadow-lg">
-            <form class="space-y-4">
-                <div>
-                    <label for="username" class="block text-sm font-medium text-gray-300">Identifiant</label>
-                    <input type="text" id="username" class="mt-2 w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Votre identifiant">
-                </div>
-                <div>
-                    <label for="password" class="block text-sm font-medium text-gray-300">Mot de passe</label>
-                    <input type="password" id="password" class="mt-2 w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Votre mot de passe">
-                </div>
-                <button class="w-full px-3 py-2 bg-red-900 hover:bg-red-800 text-white font-semibold rounded-lg">Connexion</button>
-            </form>
-        </div>
+<div class="login-page flex items-center justify-center h-screen text-white relative overflow-hidden">
+    <!-- Image de fond avec fondu progressif vers le noir -->
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/img/login/fondlogin2.jpg');"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-90"></div>
+
+    <!-- Ton contenu original -->
+    <div class="bg-black bg-opacity-80 border-2 border-red-900 p-8 rounded-lg shadow-lg shadow-red-900 text-center w-96 z-10">
+        <h1 class="text-5xl font-bold mb-6" style="
+    background: linear-gradient(to bottom, #fa4a4a, #530202);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+  DeathHire
+</h1>
+
+    
+
+
+
+        <form class="space-y-4">
+            <div>
+                <label for="username" class="block text-lg">Adresse mail</label>
+                <input type="text" id="username" placeholder="Votre adresse mail" 
+                    class="w-full p-2 mt-2 bg-gray-800 text-white border border-gray-600 rounded">
+            </div>
+            <div>
+                <label for="password" class="block text-lg">Mot de passe</label>
+                <input type="password" id="password" placeholder="Votre mot de passe" 
+                    class="w-full p-2 mt-2 bg-gray-800 text-white border border-gray-600 rounded">
+            </div>
+            <button type="submit" 
+                class="w-full px-4 py-2 mt-4 bg-red-900 text-white font-bold rounded border border-red-900 hover:bg-red-800 transition">
+                Connexion
+            </button>
+        </form>
+        <p class="mt-6 text-gray-500 text-sm">
+            Pour créer un compte
+            <a href="#" class="font-semibold text-red-900 hover:text-red-700">Cliquez ici</a>
+        </p>
+        
     </div>
-</body>
-</html>
+</div>

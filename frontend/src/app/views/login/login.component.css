@@ -1,0 +1,51 @@
+/* .login-page {
+    background: url('/img/login/fond%20login2.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    font-family: 'Sweet Sans Bold Small Cap', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #8B0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+.login-title {
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 0 0 20px rgba(255, 0, 0, 1), 0 0 40px rgba(255, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background: #8B0000;
+    background-size: cover;
+    border: 2px solid #8B0000;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.login-button:hover {
+    opacity: 0.8;
+} */
+
+
+.login-page
+{
+    background: url('/img/login/fond%20login2.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-color: black;
+    font-family: 'Sweet Sans Bold Small Cap', sans-serif;
+}
+
